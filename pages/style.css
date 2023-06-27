@@ -1,0 +1,48 @@
+.editors {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  width: 100vw;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor {
+  width: 31vw;
+  height: 50vh;
+  color: white;
+}
+.editor > h2 {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 80px;
+  padding: 0px 10px;
+}
+.icon {
+  color: rgb(102, 255, 0);
+}
+
+.editor-comp {
+  background-color: rgb(59, 58, 58);
+  color: white;
+  /* border: 1px solid white; */
+  border-radius: 2px;
+}
+
+.output {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#output-iframe {
+  background-color: #353434;
+  height: 90%;
+  width: 96%;
+}
