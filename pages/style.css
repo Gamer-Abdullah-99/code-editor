@@ -23,6 +23,7 @@
 }
 .icon {
   color: rgb(102, 255, 0);
+  font-size: 18px;
 }
 
 .editor-comp {
@@ -45,4 +46,14 @@
   background-color: #353434;
   height: 90%;
   width: 96%;
+}
+@media screen and (max-width: 600px) {
+  .editors {
+    flex-direction: column;
+    height: 100vh;
+    gap: 15px;
+  }
+  .editor {
+    width: 95vw;
+  }
 }
